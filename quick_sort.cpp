@@ -1,5 +1,10 @@
-//快排模板
-#include<iostream>
+/* 快排模板
+   快速排序是在“分治”的基础上的：
+   1、确定分界点x，中点比较好；
+   2、根据x的值把区间分成两半，使得第一个区间所有的值<=x，第二个区间的值>=x；
+   3、递归处理左右区间
+*/
+#include<iostxream>
 using namespace std;
 
 const int N = 100010;
@@ -10,6 +15,7 @@ void quick_sort(int a[], int l, int r)
 {
     if(l >= r) return ;
     int i = l - 1, j = r + 1, x = a[l+r>>1];
+    //这里使用i和j分别为-1，+1，值得注意
     while(i < j)
     {
         do i++; while(a[i]<x);
