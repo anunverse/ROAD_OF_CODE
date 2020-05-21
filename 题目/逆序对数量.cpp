@@ -1,5 +1,5 @@
 /*
-  归并排序应用,求逆序对数量
+  归并排序应用,求逆序对数量 AcWing 788
 */
 #include<iostream>
 using namespace std;
