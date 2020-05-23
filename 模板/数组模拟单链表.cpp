@@ -1,7 +1,9 @@
+/* AcWing 826 */
 #include<iostream>
 using namespace std;
 
 const int N = 100010;
+//head表示头指针，idx是当前第几个点，e存的是值，ne存的是next指针
 int head,idx;
 int e[N],ne[N];
 
