@@ -1,3 +1,4 @@
+//https://www.acwing.com/problem/content/description/1000/
 #include<iostream>
 #include<cstring>
 using namespace std;
